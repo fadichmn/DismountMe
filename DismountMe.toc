@@ -1,0 +1,6 @@
+## Interface: 11302
+## Title: DismountMe
+## Author: Fadi (Kund) Chamoun - 2019/08/14
+## Notes: Unmounts the Player whenever a action is used which cannot be done mounted. (11200)
+## Version: 1.0
+DismountMe.lua
