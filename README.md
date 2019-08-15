@@ -4,6 +4,6 @@ A WoW Classic Addon that automatically unmounts the player when using an action.
 ## Installation
 1. Download **[Latest Version](https://github.com/fadichmn/DismountMe/archive/1.0.zip)**
 2. Unpack the Zip file
-3. Copy "DismountMe" into \Interface\AddOns
+3. Copy "DismountMe" into \Interface\AddOns\
 4. Restart WoW
 5. ENJOY
