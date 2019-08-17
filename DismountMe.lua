@@ -17,7 +17,7 @@ DismountMe.Buffs = {
   "Ability_Mount_BlackDireWolf", -- Black Dire Wolf Mount
   "Ability_Mount_WhiteDireWolf", -- White Dire Wolf Mount
   "Ability_Mount_Kodo_01", -- Kodo 01 Mount
-  "Ability_Mount_Kodo_03", -- Kodo 01 Mount
+  "Ability_Mount_Kodo_03", -- Kodo 03 Mount
   "Ability_Mount_Raptor", -- Raptor Mount
   "Ability_Mount_Undeadhorse", -- Undead Horse Mount
   "Ability_Mount_JungleTiger", -- Jungle Tiger Mount
@@ -37,7 +37,6 @@ DismountMe:SetScript("OnEvent", function()
         for i=0,15,1 do
           currBuffTex = GetPlayerBuffTexture(i);
           if (currBuffTex) then
-
             for id, bufftype in pairs(DismountMe.Buffs) do
               if string.find(string.lower(currBuffTex), bufftype) then
                 CancelPlayerBuff(i);
